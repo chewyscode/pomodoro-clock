@@ -46,7 +46,9 @@ function timer(){
     } else if(workM.innerText != 0 && workS.innerText == 0){
 workS.innerText = 59;
 workM.innerText--;
-    }
+    };
+
+    
 
     //Break timer countdown
     if(workM.innerText == 0  && workS == 0){
